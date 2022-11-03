@@ -6,7 +6,7 @@
 
 Dockerfile은 Docker build명령어를 실행할 때 필요한 파일이로서, **도커 데몬이 어떻게 빌드 할지를 정의한 문서**입니다. 도커 아키텍처는 도커 클라이언트와 도커 데몬으로 분리되어 있습니다. 사용자가 docker build명령어를 실행하면 실제 빌드는 도커 데몬이 실행합니다. 그리고 빌드 내용이 있는 문서가 Dockerfile입니다.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

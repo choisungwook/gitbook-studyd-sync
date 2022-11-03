@@ -41,3 +41,4 @@
   * [변수와 입력](lanaguage/terraform/undefined.md)
   * [Data Block](lanaguage/terraform/data-block.md)
   * [aws 리소스 모음](lanaguage/terraform/aws.md)
+  * [상태파일 민감정보](lanaguage/terraform/undefined-1.md)

@@ -40,7 +40,7 @@ curl -XPUT "http://localhost:9200/helloworld" -H 'Content-Type: application/json
 curl -X GET "http://127.0.0.1:9200/_cat/indices?v"
 ```
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Shard reroute
 
