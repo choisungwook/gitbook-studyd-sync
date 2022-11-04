@@ -32,7 +32,7 @@
 
 <mark style="color:red;">무한히 기다리는 데드락 상황에 빠져듭니다</mark>. 장애극복을 위해 종료되는 pod의 데이터를 옮기려고 시도하겠지만, Replica Shard가 있는 pod도 종료되기 때문에 무한정 기다리게 됩니다. Shard상태를 조회하면 UNASSIGNED로 되어 있구요.
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

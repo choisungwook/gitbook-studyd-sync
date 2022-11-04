@@ -66,7 +66,7 @@ stage가 여러개라고 해서 도커이미지가 여러개 생성되는 거는
 예제: [https://github.com/choisungwook/dockerfile\_multistage\_practice/blob/main/multi\_stage\_example.Dockerfile](https://github.com/choisungwook/dockerfile\_multistage\_practice/blob/main/multi\_stage\_example.Dockerfile)
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Multi Stage 적용 예 - 도커이미지 크기 줄이기
 
@@ -155,7 +155,7 @@ docker build를 하면 stage 한개를 사용한 것보다 이미지 크기가 �
 docker build -t <이미지이름>:<tag> .
 ```
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 참고자
 

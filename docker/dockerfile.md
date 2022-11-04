@@ -28,7 +28,7 @@ Dockerfile은 Docker build명령어를 실행할 때 필요한 파일이로서, 
 
 **docker build의 한계가 있어 새로운 빌드엔진을 개선**하는 프로젝트가 여러 등장했습니다. 그 중 buildkit 프로젝트가 사람들에게 많이 알려졌고, 도커 18.09버전부터 buildkit을 사용하여 docker build명령어를 수행합니다.
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>출처: https://kubesimplify.com/the-secret-gems-behind-building-container-images-enter-buildkit-and-docker-buildx</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (1).png" alt=""><figcaption><p>출처: https://kubesimplify.com/the-secret-gems-behind-building-container-images-enter-buildkit-and-docker-buildx</p></figcaption></figure>
 
 
 

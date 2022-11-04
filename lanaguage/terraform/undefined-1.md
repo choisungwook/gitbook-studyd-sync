@@ -14,7 +14,7 @@
 
 정말로 민감정보가 상태파일에 평문으로 저장되는지 실습해보겠습니다. 민감정보를 상태파일로 저장할 수 있는 aws RDS를 예제로 살펴볼겁니다. RDS는 로그인할 계정과 비밀번호가 필요합니다.
 
-<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
