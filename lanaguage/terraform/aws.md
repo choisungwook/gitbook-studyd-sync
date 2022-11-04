@@ -51,6 +51,22 @@ resource "aws_internet_gateway" "akbun-igw" {
 
 
 
+## EC2 Instance
+
+```hcl
+resource "aws_instance" "example" {
+  ami           = "ami-0c76973fbe0ee100c"
+  instance_type = "t2.nano"
+  # subnet_id  = ""
+
+  tags = {
+    Name = "t101-week3"
+  }
+}
+```
+
+##
+
 ## RDS Mysql
 
 약 4분 소요됩니다.
