@@ -1,5 +1,20 @@
 # aws 리소스 모음
 
+## s3 backend
+
+```hcl
+terraform {
+  backend "s3" {
+    bucket = "akbun-t101study-tfstate-week3-files"
+    key    = "terraform.tfstate"
+    region = "ap-northeast-2"
+    # dynamodb_table = "terraform-locks-week3-files"
+  }
+}
+```
+
+
+
 ## VPC, Subnet, Internet Gateway
 
 ```hcl
