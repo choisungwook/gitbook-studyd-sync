@@ -16,7 +16,7 @@ Dockerfile은 Docker build명령어를 실행할 때 필요한 파일이로서, 
 
 2021 도커 웨비나에서 발표된 자료에 따르면, Dockefile 버전관리에 대한 문서는 비공식적으로 관리되고 있는 것 같습니다. 그래서 Dockerfile 버전에 대한 자료가 많이 업는 것 같습니다. 😭😭
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>출처: 2021년 docker 웨비나( https://youtu.be/Y5zuyTZg_Kw )</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>출처: 2021년 docker 웨비나( https://youtu.be/Y5zuyTZg_Kw )</p></figcaption></figure>
 
 
 
