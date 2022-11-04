@@ -20,7 +20,7 @@
 
 엘라스틱서치를 예제로 들면 index의 데이터를 여러 data인스턴스에 shard로 쪼개어 저장합니다. 그리고 장애 극복을 위해 Replica(복제) Shard를 0개 이상 가집니다. 인스턴스가 장애나면 다른 인스턴스에 Replica shard가 복사되고 서비스가 정상화 됩니다.
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

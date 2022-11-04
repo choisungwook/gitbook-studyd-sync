@@ -1,86 +1,120 @@
-# 상태파일 민감정보
+# 변수와 입력
 
-## 상태파일에 평문으로 저장되는 민감정보
+## 변수 선언 방법
 
-테라폼 상태파일은 디폴트 저장이 평문저장입니다. <mark style="color:red;">환경변수로 변수값을 넘겨도 상태파일의 값은 평문으로 저장</mark>됩니다. 만약 여러분이 public git에 state파일을 저장한다면 소중한 민감정보가 노출되게됩니다.
-
-
-
-해결방법은 시크릿 저장소를 이용하여 민감정보를 암호화해야 합니다. 대표적으로 valut, 클라우드 솔루션(aws secret manager, GCP kms 등)이 있습니다.\\
-
-
-
-## 예제
-
-정말로 민감정보가 상태파일에 평문으로 저장되는지 실습해보겠습니다. 민감정보를 상태파일로 저장할 수 있는 aws RDS를 예제로 살펴볼겁니다. RDS는 로그인할 계정과 비밀번호가 필요합니다.
-
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
-
-
-RDS 계정과 비밀번호는 입력으로 받을 수 있도록 variable block을 사용했습니다.
+variable BLOCK type을 사용하면 변수를 선언할 수 있습니다. 정의할 수 있는 속성은 테라폼 공식문서를 참고하시길 바랍니다.
 
 {% hint style="info" %}
-github 링크: [**https://github.com/sungwook-practice/terraform-study/tree/main/week3/sensitive\_data**](https://github.com/sungwook-practice/terraform-study/tree/main/week3/sensitive\_data)****
+Terraform input 공식문서: [https://developer.hashicorp.com/terraform/language/values/variables#arguments](https://developer.hashicorp.com/terraform/language/values/variables#arguments)
 {% endhint %}
 
 ```hcl
-provider "aws" {
-  region = "ap-northeast-2"
-}
-
-resource "aws_db_instance" "myrds" {
-  identifier_prefix      = "t101-sensitivedata"
-  engine                 = "mysql"
-  allocated_storage      = 10
-  instance_class         = "db.t2.micro"
-  skip_final_snapshot    = true
-
-  db_name                = "sensitive_example"
-  username               = var.db_username
-  password               = var.db_password
-}
-
-variable db_username {
-  type        = string
-  description = "사용자 이름"
-}
-
-variable db_password {
-  type        = string
-  description = "비밀번호"
+variable "<변수 이름>" {
+  description = "변수 설명"
+  type        = 변수타입
 }
 ```
 
 
 
-계정과 비밀번호는 테라폼 환경변수로 설정합니다.
+아래 예제는 server\_port라는 변수이름을 선언했습니다. server\_port 변수는 정수타입니다. 관례적으로 변수정의는 variables.tf파일에 저장합니다.
+
+```hcl
+variable "server_port" {
+  description = "The port the server will use for HTTP requests"
+  type        = number
+}
+```
+
+
+
+## 변수값 초기화 방법
+
+변수를 정의하면 초기화를 해야 사용할 수 있습니다. 초기화 실습을 하기 위해 number타입을 갖는 server\_port변수를 정의하겠습니다.
+
+```hcl
+variable "server_port" {
+  description = "The port the server will use for HTTP requests"
+  type        = number
+}
+```
+
+
+
+### 대화형 프롬프트
+
+variable block을 정의한 후, terraform plan명령어를 실행하면 **변수를 초기화하는 프롬프트 창**이 나옵니다. 8080을 입력하면 server\_port변수 값이 8080으로 설정됩니다.
+
+```
+terraform plan
+```
+
+<figure><img src="../../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
+
+### 환경변수
+
+프롬프트를 입력하지 않고 환경변수로 변수 값을 설정할 수 있습니다. TF\_VAR\_{변수 이름}으로 환경변수를 설정하고 환경변수 값에 초기화 할 값을 설정하면 됩니다. 환경변수 초기화 방법은 외부에 노출시키면 안되는 민감정보를 초기화 할 때 사용하면 좋습니다.
 
 ```shell
-export TF_VAR_db_username='user'
-export TF_VAR_db_password='password'
+# 리눅스 환경변수 정의방법
+export TF_VAR_server_port=8080
 ```
 
 
 
-terraform apply명령어로 RDS를 생성합니다.
+terraform plan명령어를 실행하면 변수 값이 설정되었기 떄문에, 프롬프트가 나오지 않습니다.
+
+```
+terraform plan
+```
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+
+
+환경변수에 설정된 변수값을 사용하고 싶지 않으면 해당 환경변수를 삭제하면 됩니다.
 
 ```shell
-terraform apply
+# 리눅스 환경변수 삭제 방법
+unset <환경변수 이름>
 ```
 
 
 
-RDS대시보드를 방문하여 RDS가 생성되었는지 확인합니다.
+### 테라폼 명령어 인자
 
-<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
-
-
-
-상태파일에서 username과 password를 검색하면, 환경변수로 설정했던 계정과 비밀번호가 평문으로 저장된 것을 확인할 수 있습니다. 테라폼 코드에 민감정보를 저장하지 않기 위해 환경변수로 설정했지만 결국,상태파일에는 민감정보가 평문으로 저장됩니다.
+테라폼 명령어를 실행할 때 -var인자로 변수 값을 초기화 할 수 있습니다.
 
 ```shell
-egrep 'username|password' terraform.tfstate
+terraform plan -var "server_port=8081"
 ```
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+
+terraform plan명령어를 실행하면 변수 값이 설정되었기 떄문에, 프롬프트가 나오지 않습니다.
+
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
+
+
+## Default 값 설정
+
+variable BLOCK TYPE을 정의할 때, 변수 default 값을 설정할 수 있습니다.
+
+```hcl
+variable "server_port" {
+  description = "The port the server will use for HTTP requests"
+  type        = number
+  default     = 8080
+}
+```
+
+
+
+terraform plan명령어를 실행하면 변수 값이 설정되었기 떄문에, 프롬프트가 나오지 않습니다.
+
+```
+terraform paln
+```
+
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
