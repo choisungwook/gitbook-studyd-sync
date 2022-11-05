@@ -56,7 +56,7 @@ dockerfile 버전은 도커 이미지로 관리됩니다. 그래서 도커 데�
 
 docker image는 docker hub로 관리되므로 syntax문법을 사용할 경우 dockerhub와 통신이 가능해야 합니다.
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>출처:https://hub.docker.com/r/docker/dockerfile</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>출처:https://hub.docker.com/r/docker/dockerfile</p></figcaption></figure>
 
 
 
@@ -88,7 +88,7 @@ LLB를 json으로 변경하면 아래와 같습니다.
 
 그러므로, dockerfile을 관리하는 dockerhub을 보면 frontend image라고 표현하고 있습니다.
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption><p>출처:https://hub.docker.com/r/docker/dockerfile</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (35) (1).png" alt=""><figcaption><p>출처:https://hub.docker.com/r/docker/dockerfile</p></figcaption></figure>
 
 
 

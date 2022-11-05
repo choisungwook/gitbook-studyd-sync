@@ -14,7 +14,7 @@
 
 정말로 민감정보가 상태파일에 평문으로 저장되는지 실습해보겠습니다. 민감정보를 상태파일로 저장할 수 있는 aws RDS를 예제로 살펴볼겁니다. RDS는 로그인할 계정과 비밀번호가 필요합니다.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -83,4 +83,4 @@ RDS대시보드를 방문하여 RDS가 생성되었는지 확인합니다.
 egrep 'username|password' terraform.tfstate
 ```
 
-<figure><img src="../../.gitbook/assets/image (13) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>

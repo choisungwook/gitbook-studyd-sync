@@ -8,7 +8,7 @@
 
 코드로 인프라를 관리한다는 말이 무엇일까요? 사용자는 생성/수정/삭제하고 싶은 인프라 자원을 코드로 작성합니다. 그리고 사용자가 IAC도구를 실행하면, IAC도구가 코드를 해석해석 인프라 자원을 반영시킵니다.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -52,7 +52,7 @@
 
 Provider가 코드를 인프라로 반영되는 과정을 provisioning라고 합니다.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>참고자료: <a href="https://www.terraform.io/intro">https://www.terraform.io/intro</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption><p>참고자료: <a href="https://www.terraform.io/intro">https://www.terraform.io/intro</a></p></figcaption></figure>
 
 
 

@@ -4,7 +4,7 @@
 
 terraform remote state는 <mark style="color:red;">원격 상태파일에 있는 값을 참조하는 방법</mark>입니다. 다른 팀이 작업한 리소스를 참조하거나 레이아웃을 여러 개 만든 상황에서 레이아웃끼리 리소스 참조 등에 사용할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -194,4 +194,4 @@ terraform apply
 
 aws EC2 Instance대시보드를 확인하면 EC2 instsnace가 원격상태파일의 subnet설정으로 잘 생성되었습니다.
 
-<figure><img src="../../.gitbook/assets/image (12) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
