@@ -52,7 +52,7 @@
 
 Provider가 코드를 인프라로 반영되는 과정을 provisioning라고 합니다.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>참고자료: <a href="https://www.terraform.io/intro">https://www.terraform.io/intro</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>참고자료: <a href="https://www.terraform.io/intro">https://www.terraform.io/intro</a></p></figcaption></figure>
 
 
 
@@ -60,7 +60,7 @@ Provider가 코드를 인프라로 반영되는 과정을 provisioning라고 합
 
 테라폼이 작업할 코드는 HCL라는 언어로 작성됩니다. 그리고 코드는 tf확장자를 갖는 파일로 저장됩니다.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>참고자료: <a href="https://www.terraform.io/language">https://www.terraform.io/language</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>참고자료: <a href="https://www.terraform.io/language">https://www.terraform.io/language</a></p></figcaption></figure>
 
 
 

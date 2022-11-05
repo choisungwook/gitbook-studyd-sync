@@ -68,7 +68,7 @@ terraform plan명령어를 실행하면 변수 값이 설정되었기 떄문에,
 terraform plan
 ```
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -93,7 +93,7 @@ terraform plan -var "server_port=8081"
 
 terraform plan명령어를 실행하면 변수 값이 설정되었기 떄문에, 프롬프트가 나오지 않습니다.
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

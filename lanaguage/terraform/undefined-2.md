@@ -83,4 +83,4 @@ RDS대시보드를 방문하여 RDS가 생성되었는지 확인합니다.
 egrep 'username|password' terraform.tfstate
 ```
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (2).png" alt=""><figcaption></figcaption></figure>

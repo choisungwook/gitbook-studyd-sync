@@ -25,7 +25,7 @@ ARG tmp=a
 RUN echo $tmp
 ```
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -43,4 +43,4 @@ docker build --build-arg tmp=helloworld
 
 외부 초기화를 이용하면 다른사람과 협력할 때 유용합니다. 변수값만 초기화 하면 동적으로 변하는 값을 쉽게 제어할 수 있으니까요! 아래 예제는 Spring공식문서에 소개되어 있는 springboot도커이미지 만드는 방법입니다.
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>출처: https://spring.io/guides/gs/spring-boot-docker/</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>출처: https://spring.io/guides/gs/spring-boot-docker/</p></figcaption></figure>
