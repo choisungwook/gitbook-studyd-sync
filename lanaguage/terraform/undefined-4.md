@@ -16,11 +16,11 @@
 
 1. 최상위(root): 환경(개발, 스테이지)과 global리소스3(SS, IAM 등)로 분류했습니다.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 하위구성요소: 최상위 아래에는 모듈과 tf파일 집합으로 구성되어 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -46,19 +46,19 @@ github 링크: [https://github.com/sungwook-practice/terraform-study/tree/main/w
   * Security group
 * RDS
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
 
 
 이 예제에서는 레이아웃 환경분리를 2가지했습니다. global aws리소스와 global이 아닌 aws리소스입니다. global아닌 리소스는 dev/prd로 분리했습니다.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 
 
 역할별로 모듈을 만들었습니다. 그리고 main.tf에는 모듈을 import하여 최종적으로 aws 리소스를 테라폼 코드로 작성했습니다.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -117,19 +117,19 @@ terraform init && terraform apply
 
 aws 콘솔에서 직접 확인해봅시다. Load Balancer가 잘 생성되었는지 확인합니다.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 
 
 Load Balacner에 연결된 Targer group에는 ASG가 생성한 EC2 Instance 2개가 연결되어 있습니다. 2개인 이유는 테라폼 코드에서 최소 인스턴스 개수를 2개로 설정했기 때문입니다.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
 
 
 RDS가 잘 생성되었는지 확인합니다.
 
-<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -140,4 +140,4 @@ ALBDNS=$(terraform output -raw myalb_dns)
 for i in {1..100}; do curl -s http://$ALBDNS:8080/ ; done | sort | uniq -c | sort -nr
 ```
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>

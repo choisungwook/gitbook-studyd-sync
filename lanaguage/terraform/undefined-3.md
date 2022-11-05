@@ -62,7 +62,7 @@ terraform apply명령어로 s3를 생성합니다.
 
 ```shell
 # 코드 실행
-terraform init & terraform apply
+terraform init && terraform apply
 ```
 
 
