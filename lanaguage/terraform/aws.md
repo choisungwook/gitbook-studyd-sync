@@ -1,5 +1,15 @@
 # aws 리소스 모음
 
+## &#x20;s3
+
+```hcl
+resource "aws_s3_bucket" "mys3bucket" {
+  bucket = "akbun-t101study-tfstate"
+}
+```
+
+
+
 ## s3 backend
 
 ```hcl
