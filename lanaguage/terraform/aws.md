@@ -67,11 +67,17 @@ resource "aws_internet_gateway" "akbun-igw" {
 resource "aws_instance" "example" {
   ami           = "ami-0c76973fbe0ee100c"
   instance_type = "t2.nano"
+  associate_public_ip_address = true
   # subnet_id  = ""
 
   tags = {
     Name = "t101-week3"
   }
+}
+
+output "myec2_public_ip" {
+  value       = aws_instance.myec2.public_ip
+  description = "The public IP of the Instance"
 }
 ```
 
