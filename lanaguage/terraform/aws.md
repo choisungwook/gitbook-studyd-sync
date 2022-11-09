@@ -100,7 +100,7 @@ resource "aws_instance" "example" {
 }
 
 output "myec2_public_ip" {
-  value       = aws_instance.myec2.public_ip
+  value       = aws_instance.example.public_ip
   description = "The public IP of the Instance"
 }
 ```
