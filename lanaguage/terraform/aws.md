@@ -25,7 +25,7 @@ terraform {
 
 
 
-## VPC, Subnet, Internet Gateway
+## VPC, Subnet, Route table, Internet Gateway
 
 ```hcl
 resource "aws_vpc" "akbun-vpc" {
@@ -58,7 +58,7 @@ resource "aws_internet_gateway" "akbun-igw" {
 }
 
 resource "aws_route_table" "myrt" {
-  vpc_id = aws_vpc.akbun-subnet1.id
+  vpc_id = aws_vpc.akbun-vpc.id
 
   tags = {
     Name = "t101-rt"
