@@ -16,7 +16,7 @@
 
 1. 최상위(root): 환경(개발, 스테이지)과 global리소스3(SS, IAM 등)로 분류했습니다.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 하위구성요소: 최상위 아래에는 모듈과 tf파일 집합으로 구성되어 있습니다.
 
@@ -140,4 +140,4 @@ ALBDNS=$(terraform output -raw myalb_dns)
 for i in {1..100}; do curl -s http://$ALBDNS:8080/ ; done | sort | uniq -c | sort -nr
 ```
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>

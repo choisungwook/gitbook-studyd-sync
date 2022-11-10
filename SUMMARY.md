@@ -46,4 +46,5 @@
   * [상태파일 민감정보](lanaguage/terraform/undefined-2.md)
   * [원격상태파일 참조](lanaguage/terraform/undefined-3.md)
   * [레이아웃](lanaguage/terraform/undefined-4.md)
+  * [Local value](lanaguage/terraform/local-value.md)
   * [aws 리소스 모음](lanaguage/terraform/aws.md)
