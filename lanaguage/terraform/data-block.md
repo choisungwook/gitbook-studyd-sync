@@ -15,6 +15,10 @@ provider "aws" {
   region  = "ap-northeast-2"
 }
 
+data "aws_vpc" "default" {
+  default = true
+}
+
 data "aws_subnets" "default" {
   # 인프라를 가져오기 위해 필터링
   filter {
