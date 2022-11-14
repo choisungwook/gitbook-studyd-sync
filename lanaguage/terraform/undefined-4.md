@@ -20,7 +20,7 @@
 
 하위구성요소: 최상위 아래에는 모듈과 tf파일 집합으로 구성되어 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -129,7 +129,7 @@ Load Balacner에 연결된 Targer group에는 ASG가 생성한 EC2 Instance 2개
 
 RDS가 잘 생성되었는지 확인합니다.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
