@@ -26,7 +26,7 @@
 
 쿠버네티스 Replica를 줄이는 상황이고 가정해봅시다. <mark style="color:red;">Replica를 5개에서 3개로 줄입겁니다. 우연히 Primary Shard와 Replica Shard가 종료되는 pod에 있으면 어떻게 될까요?</mark>
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

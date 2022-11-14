@@ -73,7 +73,7 @@ terraform apply
 
 RDS대시보드를 방문하여 RDS가 생성되었는지 확인합니다.
 
-<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

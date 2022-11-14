@@ -35,7 +35,7 @@ github 링크: [https://github.com/sungwook-practice/terraform-study/tree/main/w
 
 원격파일을 저장할 s3와 vpc 코드를 작성합니다. vpc는 remote state data block으로 값을 참조할 리소스입니다.
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 

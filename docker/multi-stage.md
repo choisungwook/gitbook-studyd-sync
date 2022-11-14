@@ -16,7 +16,7 @@ Multi Stage가 무엇인이 살펴보기전에 활용사례부터 볼게요! 활
 
 아래 예제는 Multi Stage를 사용했을 경우 도커 이미지 크기가 얼마나 줄었는지 보여주는 예입니다.
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 여기서 잠깐! 왜 도커 이미지 크기를 줄여야할 까요? 바로 도커 이미지 관리할 때 저장 장치(예: 하드 디스크)용량을 줄이기 위해입니다.

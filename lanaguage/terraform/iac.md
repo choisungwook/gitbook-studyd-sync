@@ -52,7 +52,7 @@
 
 Provider가 코드를 인프라로 반영되는 과정을 provisioning라고 합니다.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>참고자료: <a href="https://www.terraform.io/intro">https://www.terraform.io/intro</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption><p>참고자료: <a href="https://www.terraform.io/intro">https://www.terraform.io/intro</a></p></figcaption></figure>
 
 
 
