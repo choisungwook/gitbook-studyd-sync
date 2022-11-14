@@ -20,7 +20,7 @@
 
 하위구성요소: 최상위 아래에는 모듈과 tf파일 집합으로 구성되어 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (13) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 
 

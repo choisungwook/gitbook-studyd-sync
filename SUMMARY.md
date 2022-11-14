@@ -48,5 +48,5 @@
   * [레이아웃](lanaguage/terraform/undefined-4.md)
   * [Local value](lanaguage/terraform/local-value.md)
   * [terraform pre-commit](lanaguage/terraform/terraform-pre-commit.md)
-  * [테라폼 언어(HCL 구조](lanaguage/terraform/hcl.md)
+  * [테라폼 언어(HCL) 구조](lanaguage/terraform/hcl.md)
   * [aws 리소스 모음](lanaguage/terraform/aws.md)
