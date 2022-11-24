@@ -26,6 +26,7 @@
 
 * [Python](lanaguage/python/README.md)
   * [2차원 배열 입력](lanaguage/python/2.md)
+  * [파이썬 패키지 설치 경로보기](lanaguage/python/undefined.md)
 * [Javascript(자바스크립트)](lanaguage/javascript/README.md)
   * [소개](lanaguage/javascript/undefined.md)
   * [자바스크립트란?](lanaguage/javascript/undefined-1.md)
