@@ -2,7 +2,7 @@
 
 테라폼 코드는 HCL라는 언어로 작성합니다. HCL은 Block이라는 기본단위를 사용합니다. 결국, 테라폼 코드는 Block단위의 집합입니다.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 
 

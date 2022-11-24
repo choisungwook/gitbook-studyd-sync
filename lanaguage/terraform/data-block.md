@@ -36,7 +36,7 @@ terraform apply명령어를 실행하여 테라폼 코드를 실행합니다.
 terraform apply -auto-approve
 ```
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

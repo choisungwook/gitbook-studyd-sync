@@ -140,4 +140,4 @@ ALBDNS=$(terraform output -raw myalb_dns)
 for i in {1..100}; do curl -s http://$ALBDNS:8080/ ; done | sort | uniq -c | sort -nr
 ```
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (3).png" alt=""><figcaption></figcaption></figure>

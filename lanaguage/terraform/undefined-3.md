@@ -194,4 +194,4 @@ terraform apply
 
 aws EC2 Instance대시보드를 확인하면 EC2 instsnace가 원격상태파일의 subnet설정으로 잘 생성되었습니다.
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>

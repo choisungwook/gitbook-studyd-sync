@@ -93,4 +93,4 @@ curl -XPUT "http://localhost:9200/helloworld/_doc/1" -H 'Content-Type: applicati
 curl -X GET "http://127.0.0.1:9200/_cat/shards?v"
 ```
 
-<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>

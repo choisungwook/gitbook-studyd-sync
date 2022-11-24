@@ -50,4 +50,5 @@
   * [Local value](lanaguage/terraform/local-value.md)
   * [terraform pre-commit](lanaguage/terraform/terraform-pre-commit.md)
   * [테라폼 언어(HCL) 구조](lanaguage/terraform/hcl.md)
+  * [count를 이용한 반복문](lanaguage/terraform/count.md)
   * [aws 리소스 모음](lanaguage/terraform/aws.md)
