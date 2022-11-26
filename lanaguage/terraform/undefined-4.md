@@ -58,7 +58,7 @@ github 링크: [https://github.com/sungwook-practice/terraform-study/tree/main/w
 
 역할별로 모듈을 만들었습니다. 그리고 main.tf에는 모듈을 import하여 최종적으로 aws 리소스를 테라폼 코드로 작성했습니다.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -129,7 +129,7 @@ Load Balacner에 연결된 Targer group에는 ASG가 생성한 EC2 Instance 2개
 
 RDS가 잘 생성되었는지 확인합니다.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 

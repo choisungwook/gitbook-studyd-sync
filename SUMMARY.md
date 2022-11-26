@@ -51,4 +51,5 @@
   * [Local value](lanaguage/terraform/local-value.md)
   * [terraform pre-commit](lanaguage/terraform/terraform-pre-commit.md)
   * [count를 이용한 반복문](lanaguage/terraform/count.md)
+  * [중앙 집중식 비밀 저장소 연동](lanaguage/terraform/undefined-5.md)
   * [aws 리소스 모음](lanaguage/terraform/aws.md)

@@ -126,7 +126,7 @@ terraform apply
 
 EC2 Instance tag.name이 의도한 대로 index가 포함되어 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (4).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -182,4 +182,4 @@ terraform apply 명령어를 실행하면 2번째 bucket생성 할 때, bucket �
 terraform apply
 ```
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
