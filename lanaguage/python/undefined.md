@@ -6,4 +6,4 @@ pip show명령어는 패키지정보를 출력합니다. 출력정보에서 Loca
 pip show {패키지이름}
 ```
 
-<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3) (3).png" alt=""><figcaption></figcaption></figure>

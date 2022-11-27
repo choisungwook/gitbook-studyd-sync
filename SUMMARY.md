@@ -5,6 +5,7 @@
 ## 쿠버네티스
 
 * [소개](undefined/undefined.md)
+* [kubectl로 쿠버네티스 API검색](undefined/kubectl-api.md)
 
 ## Docker
 

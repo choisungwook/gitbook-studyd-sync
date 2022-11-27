@@ -65,7 +65,7 @@ terraform apply명령어를 실행하고 EC2 Instance를 확인하면 2개가 �
 terraform apply
 ```
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
