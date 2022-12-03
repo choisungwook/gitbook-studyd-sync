@@ -8,7 +8,7 @@
 
 Block의 설정(Body)은 Argument로 구성됩니다. Argument는 IDENTIFIER과 EXPRESSION으로 표현할 수 있습니다. 공식문서는 어렵게 설명되어 있는데, 단순하게 “필드이름”=”필드값”이라고 생각하면 됩니다.
 
-<figure><img src="../../.gitbook/assets/image (5) (3).png" alt=""><figcaption><p>참고자료: <a href="https://developer.hashicorp.com/terraform/language">https://developer.hashicorp.com/terraform/language</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>참고자료: <a href="https://developer.hashicorp.com/terraform/language">https://developer.hashicorp.com/terraform/language</a></p></figcaption></figure>
 
 
 

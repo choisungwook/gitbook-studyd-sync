@@ -8,7 +8,7 @@
 
 중앙 집중식 비밀 저장소는 민감정보를 안전하게 저장하는 저장소입니다. 운영자가 민감정보를 저장소에 저장하면 사용자는 저장소에 접근하여 민감정보를 조회합니다.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -16,7 +16,7 @@
 
 테라폼에서는 data block으로 중앙 집중식 비밀 저장소에 저장된 민감정보를 조회할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (3).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -64,7 +64,7 @@ terraform apply
 
 secret manager 대시보드를 확인하면 secret이 생성되었습니다.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -120,5 +120,5 @@ terraform apply
 
 aws RDS 대시보드에서 RDS가 생성되었는지 확인합니다. 그리고 RDS 속성에서 username이 aws secret manager의 username과 같은지 확인합니다.
 
-<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 

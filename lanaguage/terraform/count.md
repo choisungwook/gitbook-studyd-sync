@@ -65,7 +65,7 @@ terraform apply명령어를 실행하고 EC2 Instance를 확인하면 2개가 �
 terraform apply
 ```
 
-<figure><img src="../../.gitbook/assets/image (12) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -182,4 +182,4 @@ terraform apply 명령어를 실행하면 2번째 bucket생성 할 때, bucket �
 terraform apply
 ```
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>

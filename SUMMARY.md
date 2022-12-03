@@ -6,6 +6,7 @@
 
 * [소개](undefined/undefined.md)
 * [kubectl로 쿠버네티스 API검색](undefined/kubectl-api.md)
+* [worker노드 삭제 후 다시 조인](undefined/worker.md)
 
 ## Docker
 
