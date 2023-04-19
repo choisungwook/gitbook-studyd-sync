@@ -21,7 +21,7 @@
 RDS 계정과 비밀번호는 입력으로 받을 수 있도록 variable block을 사용했습니다.
 
 {% hint style="info" %}
-github 링크: [**https://github.com/sungwook-practice/terraform-study/tree/main/week3/sensitive\_data**](https://github.com/sungwook-practice/terraform-study/tree/main/week3/sensitive\_data)****
+github 링크: [**https://github.com/sungwook-practice/terraform-study/tree/main/week3/sensitive\_data**](https://github.com/sungwook-practice/terraform-study/tree/main/week3/sensitive\_data)
 {% endhint %}
 
 ```hcl

@@ -120,5 +120,5 @@ terraform apply
 
 aws RDS 대시보드에서 RDS가 생성되었는지 확인합니다. 그리고 RDS 속성에서 username이 aws secret manager의 username과 같은지 확인합니다.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
 
